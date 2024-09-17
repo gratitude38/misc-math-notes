@@ -32,7 +32,7 @@ It is important to note that changing the orientation angle $\theta$ does not af
 
 
 $$
-\mathbf{e}_\theta = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \mathbf{e}_r = -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y
+\mathbf{e}_\theta = \left[ \begin{array}{cc} 0 & -1 \\ 1 & 0 \end{array} \right] \mathbf{e}_r = -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y
 $$
 
 
