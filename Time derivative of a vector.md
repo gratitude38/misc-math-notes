@@ -53,17 +53,22 @@ $$
 \frac{d}{dt} \mathbf{e}_r = \frac{d \theta}{dt} \left( -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y \right)
 $$
 
-
 This simplifies further to:
+
+
 $$
 \frac{d}{dt} \mathbf{e}_r = \frac{d \theta}{dt} \mathbf{e}_\theta
 $$
 
 
+
 Thus, the time derivative of the vector $\mathbf{A}$ can be rewritten as:
+
+
 $$
 \frac{d}{dt} \mathbf{A} = \frac{dA}{dt} \mathbf{e}_r + A \frac{d \theta}{dt} \mathbf{e}_\theta
 $$
+
 
 
 This final expression clearly shows that the rate of change of $\mathbf{A}$ has two components: the rate of change of the magnitude $A$ in the radial direction $\mathbf{e}_r$, and the rate of change of the angular position $\theta$ in the direction perpendicular to $\mathbf{e}_r$, represented by $\mathbf{e}_\theta$.
