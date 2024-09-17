@@ -12,7 +12,7 @@ The time derivative of the vector $\mathbf{A}$ is given by:
 
 
 $$
-\dot{\mathbf{A}} = \dot{A} \mathbf{e}_r + A \dot{\mathbf{e}}_r
+\frac{d}{dt}\mathbf{A} = \frac{dA}{dt}\mathbf{e}_r + A \frac{d}{dt}\mathbf{e}_r
 $$
 
 
@@ -61,12 +61,6 @@ $$
 
 
 Thus, the time derivative of the vector $\mathbf{A}$ can be rewritten as:
-$$
-\dot{\mathbf{A}} = \dot{A} \mathbf{e}_r + A \dot{\theta} \mathbf{e}_\theta
-$$
-
-
-Alternatively, the derivative of $\mathbf{A}$ with respect to time can be expressed as:
 $$
 \frac{d}{dt} \mathbf{A} = \frac{dA}{dt} \mathbf{e}_r + A \frac{d \theta}{dt} \mathbf{e}_\theta
 $$
