@@ -1,5 +1,8 @@
-Let the vector $\mathbf{A}$ be defined as:
+# Time Derivative of a Vector
 
+[by Foo Piew Tan]
+
+Let the vector $\mathbf{A}$ be defined as:
 
 $$
 \mathbf{A} = A \mathbf{e}_{r}
@@ -59,16 +62,3 @@ $$
 $$
 
 This final expression clearly shows that the rate of change of $\mathbf{A}$ has two components: the rate of change of the magnitude $A$ in the radial direction $\mathbf{e}_{r}$, and the rate of change of the angular position $\theta$ in the direction perpendicular to $\mathbf{e}_{r}$, represented by $\mathbf{e}_{\theta}$.
-
-
-
-
-
-
-
-
-
-
-
----
-
