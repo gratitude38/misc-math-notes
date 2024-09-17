@@ -28,11 +28,11 @@ $$
 
 where $\mathbf{e}_x$ and $\mathbf{e}_y$ are the unit vectors along the horizontal and vertical axes, respectively, in the Cartesian coordinate system.
 
-It is important to note that changing the orientation angle $\theta$ does not affect the magnitude of the vector. This implies that the direction of angular change, represented by a new unit vector $\mathbf{e}_\theta$, must be perpendicular to $\mathbf{e}_r$. Mathematically, this orthogonality condition is expressed as $\mathbf{e}_r \cdot \mathbf{e}_\theta = 0$. This condition can be satisfied if:
+It is important to note that changing the orientation angle $\theta$ does not affect the magnitude of the vector. This implies that the direction of angular change, represented by a new unit vector $\mathbf{e}_\theta$, must be perpendicular to $\mathbf{e}_r$. Mathematically, this orthogonality condition is expressed as $\mathbf{e}_{r} \cdot \mathbf{e}_{\theta} = 0$. This condition can be satisfied if:
 
 
 $$
-\mathbf{e}_\theta = \left[ \begin{array}{cc} 0 & -1 \\ 1 & 0 \end{array} \right] \mathbf{e}_r = -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y
+\mathbf{e}_\theta = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \mathbf{e}_r = -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y
 $$
 
 
@@ -50,26 +50,13 @@ Simplifying this expression, we get:
 
 
 $$
-\frac{d}{dt} \mathbf{e}_r = \frac{d \theta}{dt} \left( -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y \right)
+\frac{d}{dt} \mathbf{e}_r = \frac{d \theta}{dt} \left( -\sin \theta \ \mathbf{e}_x + \cos \theta \ \mathbf{e}_y \right) = \frac{d \theta}{dt} \mathbf{e}_\theta
 $$
-
-This simplifies further to:
-
-
-$$
-\frac{d}{dt} \mathbf{e}_r = \frac{d \theta}{dt} \mathbf{e}_\theta
-$$
-
-
 
 Thus, the time derivative of the vector $\mathbf{A}$ can be rewritten as:
-
-
 $$
 \frac{d}{dt} \mathbf{A} = \frac{dA}{dt} \mathbf{e}_r + A \frac{d \theta}{dt} \mathbf{e}_\theta
 $$
-
-
 
 This final expression clearly shows that the rate of change of $\mathbf{A}$ has two components: the rate of change of the magnitude $A$ in the radial direction $\mathbf{e}_r$, and the rate of change of the angular position $\theta$ in the direction perpendicular to $\mathbf{e}_r$, represented by $\mathbf{e}_\theta$.
 
